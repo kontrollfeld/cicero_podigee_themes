@@ -29,8 +29,9 @@
 }
 
 .podcast-player,
+.podcast-player .panels,
 .podcast-player .episode-basic-info .episode-subtitle {
-  color: #000;
+  color: map.get(vars.$colors, black);
 }
 
 .podcast-player .progress-bar-buffering,
@@ -39,7 +40,7 @@
 }
 
 .podcast-player .progress-bar-loaded {
-  background-color: #000;
+  background-color: map.get(vars.$colors, black);
 }
 
 .progress-bar-buffering {
@@ -47,10 +48,26 @@
   &:after {
     background-color: map.get(vars.$colors, dark-grey);
   }
+  &:after {
+    background-image: linear-gradient(-45deg, map.get(vars.$colors, light-grey) 25%, transparent 25%, transparent 50%, map.get(vars.$colors, light-grey) 50%, map.get(vars.$colors, light-grey) 75%, transparent 75%, transparent);
+  }
 }
 
-.podcast-player {
-  background-color: map.get(vars.$colors, light-grey);
+.podcast-player .panels .chaptermarks ul li.active,
+.podcast-player .panels .playlist ul li.active {
+  background-color: map.get(vars.$colors, dark-grey);
+}
+
+.podcast-player .panels .chaptermarks ul li + li,
+.podcast-player .panels .playlist ul li + li {
+  border-color: map.get(vars.$colors, dark-grey);
+}
+
+.podcast-player .panels .chaptermarks ul li:hover,
+.podcast-player .panels .playlist ul li:hover,
+.podcast-player .panels .chaptermarks ul li.active,
+.podcast-player .panels .playlist ul li.active {
+  background-color: rgba(map.get(vars.$colors, dark-grey), 0.5);
 }
 
 // .podcast-player a:hover {
