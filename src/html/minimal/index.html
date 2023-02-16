@@ -5,13 +5,13 @@
   <div class="main-player">
     <audio></audio>
     <progressbar/>
-    <div class="info">
-      <span class="title" pp-html="title">{ title }</span>
+    <div class="episode-basic-info">
+      <span pp-unless="url" pp-html="title"></span>
       <span pp-if="subtitle" > - </span>
-      <span class="subtitle" pp-if="subtitle" pp-html="subtitle"></span>
+      <span class="episode-subtitle" pp-if="subtitle" pp-html="subtitle"></span>
     </div>
     <div class="controls">
-      <i class="play-button"></i>
+      <button class="play-button" pp-aria-label="translations.playPause" pp-title="translations.playPause"></button>
     </div>
   </div>
 </div>
