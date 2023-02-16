@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build:default:sass": "sass ./src/sass/default/index.scss ./default/index.css --style compressed",
+    "build:default:sass": "sass ./src/sass/default/overrides.scss ./default/overrides.css --style compressed",
     "build:default:html": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --input-dir ./src/html/default/ --output-dir ./default",
     "build:minimal:sass": "sass ./src/sass/minimal/index.scss ./minimal/index.css --style compressed",
     "build:minimal:html": "html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --input-dir ./src/html/minimal/ --output-dir ./minimal",
