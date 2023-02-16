@@ -1,0 +1,9 @@
+@use "sass:map";
+@use "../variables" as vars;
+@use "../fonts";
+
+.custom-podcast-player {
+  background-color: map.get(vars.$colors, light-grey);
+  font-family: vars.$font-family-regular;
+  color: map.get(vars.$colors, black);
+}
