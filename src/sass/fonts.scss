@@ -12,3 +12,7 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Lora";
+  src: url(#{ vars.$theme-path + "/fonts/lora/Lora-Regular.ttf" }) format("truetype");
+}

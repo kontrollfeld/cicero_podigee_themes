@@ -70,6 +70,24 @@
   background-color: rgba(map.get(vars.$colors, dark-grey), 0.5);
 }
 
+.podcast-player .panels .chaptermarks ul li a svg,
+.podcast-player .panels .playlist ul li a svg {
+  color: map.get(vars.$colors, dark-grey);
+}
+
+.podcast-player .panels .episode-info {
+  .episode-title {
+    font-family: vars.$font-family-semi-bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .episode-description {
+    font-family: vars.$font-family-lora;
+    font-size: 14px;
+    line-height: 1.43;
+  }
+}
+
 // .podcast-player a:hover {
 //   text-decoration: underline;
 // }
