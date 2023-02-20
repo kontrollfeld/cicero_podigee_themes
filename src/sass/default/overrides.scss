@@ -22,7 +22,10 @@
 .podcast-player .progress-bar .progress-bar-time-played:hover,
 .podcast-player .controls-advanced button:hover,
 .podcast-player .episode-basic-info .episode-title a,
-.podcast-player a {
+.podcast-player a,
+.podcast-player a:hover, 
+.podcast-player .episode-basic-info .episode-title:hover, 
+.podcast-player .episode-title a:hover {
   color: map.get(vars.$colors, cc-red);
 }
 
