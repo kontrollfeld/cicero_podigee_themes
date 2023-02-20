@@ -7,29 +7,46 @@
   background-color: map.get(vars.$colors, light-grey);
 }
 
-.podcast-player .footer button,
 .podcast-player .panels .chaptermarks ul li.active,
 .podcast-player .panels .playlist ul li.active,
 .podcast-player .panels .transcript .transcript-text li.active 
 .podcast-player .footer button,
+.podcast-player .footer button:hover,
+.podcast-player .footer button:active,
+.podcast-player .footer button:focuse,
 .podcast-player .controls-advanced button,
+.podcast-player .controls-advanced button:hover,
+.podcast-player .controls-advanced button:active,
+.podcast-player .controls-advanced button:focuse,
 .podcast-player .progress-bar-played,
 .podcast-player .buttons button,
 .podcast-player .buttons button:hover,
+.podcast-player .buttons button:active,
+.podcast-player .buttons button:focuse,
 .podcast-player .buttons button.button-active,
-.podcast-player .buttons button:hover,
 .podcast-player .buttons button.button-active,
 .podcast-player .progress-bar .progress-bar-time-played:hover,
-.podcast-player .controls-advanced button:hover,
+.podcast-player .progress-bar .progress-bar-time-played:active,
+.podcast-player .progress-bar .progress-bar-time-played:focuse,
 .podcast-player .episode-basic-info .episode-title a,
+.podcast-player .episode-basic-info .episode-title a:hover,
+.podcast-player .episode-basic-info .episode-title a:active,
+.podcast-player .episode-basic-info .episode-title a:focuse,
 .podcast-player a,
 .podcast-player a:hover, 
+.podcast-player a:active, 
+.podcast-player a:focus, 
 .podcast-player .episode-basic-info .episode-title:hover, 
+.podcast-player .episode-basic-info .episode-title:active, 
+.podcast-player .episode-basic-info .episode-title:focus, 
 .podcast-player .episode-title a:hover {
   color: map.get(vars.$colors, cc-red);
 }
 
-.podcast-player .footer button {
+.podcast-player .footer button,
+.podcast-player .footer button:hover,
+.podcast-player .footer button:active,
+.podcast-player .footer button:focus {
   border-color: map.get(vars.$colors, cc-red);
 }
 
