@@ -28,6 +28,7 @@
 .podcast-player .progress-bar .progress-bar-time-played:hover,
 .podcast-player .progress-bar .progress-bar-time-played:active,
 .podcast-player .progress-bar .progress-bar-time-played:focus,
+.podcast-player .episode-basic-info .episode-title,
 .podcast-player .episode-basic-info .episode-title a,
 .podcast-player .episode-basic-info .episode-title a:hover,
 .podcast-player .episode-basic-info .episode-title a:active,
@@ -43,6 +44,10 @@
   color: map.get(vars.$colors, cc-red);
 }
 
+.podcast-player .footer button.subscribe-button,
+.podcast-player .footer button.subscribe-button:hover,
+.podcast-player .footer button.subscribe-button:active,
+.podcast-player .footer button.subscribe-button:focus,
 .podcast-player .footer button,
 .podcast-player .footer button:hover,
 .podcast-player .footer button:active,
