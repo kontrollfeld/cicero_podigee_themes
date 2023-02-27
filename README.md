@@ -1,4 +1,4 @@
-# cicero-podegee-themes
+# cicero-podigee-themes
 
 ## build theme
 ```
