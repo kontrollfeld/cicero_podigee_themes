@@ -2,6 +2,7 @@ $theme-path: "https://www.cicero.de/themes/custom/cicero";
 $font-family-regular: "Poppins-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-semi-bold: "Poppins-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-lora: "Lora",Georgia,"Times New Roman",Times,serif;
+$breakpoint-max-w-500: 500px;
 
 $colors: (
   cc-red: #a0223b,
@@ -11,3 +12,4 @@ $colors: (
   black: #000,
   white: #fff
 )
+

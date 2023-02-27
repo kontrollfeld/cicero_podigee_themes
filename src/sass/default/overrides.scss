@@ -141,5 +141,10 @@
   a.podcast-list-link {
     float: right;
     margin-top: 70px;
+    @media (max-width: #{vars.$breakpoint-max-w-500}) {
+      & {
+        display: none;
+      }
+    }
   }
 }
