@@ -150,8 +150,16 @@
 }
 
 .podcast-player .controls .play-button {
-  font-size: 25px;
-  height: 50px;
-  width: 50px;
+  font-size: 30px;
+  height: 45px;
+  width: 45px;
   margin: 25px 0 0 10px;
+}
+
+.podcast-player .progress-bar .progress-bar-time-played {
+  left: 68px;
+}
+
+.podcast-player .controls-advanced {
+  left: 110px;
 }
