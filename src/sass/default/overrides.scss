@@ -163,3 +163,34 @@
 .podcast-player .controls-advanced {
   left: 110px;
 }
+
+.podcast-player .cover-image {
+  padding: 5px 0px 5px 5px;
+}
+
+.podcast-player .progress-bar .progress-bar-time-played {
+  width: 36px;
+}
+
+.podcast-player.mode-script .controls-advanced, .podcast-player.mode-direct .controls-advanced {
+  @media (max-width: 500px) {
+    bottom: 14px;
+    left: 105px;
+    top: auto;
+  }
+}
+
+
+.podcast-player.mode-script .controls-advanced button, .podcast-player.mode-direct .controls-advanced button {
+  @media (max-width: 500px) {  
+  font-size: 18px;
+    padding: 0 px;
+  }
+}
+
+.podcast-player.mode-script .controls, .podcast-player.mode-direct .controls {
+  @media (max-width: 500px) {
+    height: 90px;
+    position: relative;
+  }
+}
