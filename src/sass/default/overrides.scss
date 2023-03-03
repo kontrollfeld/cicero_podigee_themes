@@ -194,3 +194,26 @@
     position: relative;
   }
 }
+.podcast-player .episode-basic-info {
+  @media (max-width: 500px) {
+    padding: 10px 12px 0;
+  }
+}
+
+.podcast-player .controls .play-button {
+  @media (max-width: 500px) {
+    margin: 12px 0 0 10px;
+  }
+}
+
+.podcast-player .progress-bar .progress-bar-time-played {
+  @media (max-width: 500px) {
+    top: 56px;
+  }
+}
+
+.podcast-player.mode-script .controls, .podcast-player.mode-direct .controls {
+  @media (max-width: 500px) {
+    height: 77px;
+  }
+}
